@@ -303,7 +303,7 @@ aws ec2 run-instances --image-id ami-0aa210fd2121a98b7 --instance-type t3.micro 
 
 example:
 
-aws ec2 run-instances --image-id ami-0aa210fd2121a98b7 --instance-type t3.micro --key-name betulk --security-group-ids sg-0aabfe7d667a21340 --subnet-id subnet-00ce588aa62f66639 --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=betul-aws-capstone-nat-instance}]' --disable-api-termination
+aws ec2 run-instances --image-id ami-0aa210fd2121a98b7 --instance-type t3.micro --key-name betulk --security-group-ids sg-03d418faae59c6e3d --subnet-id subnet-08b25748ff265eecb --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=betul-aws-capstone-nat-instance}]' --disable-api-termination
 ```
 
 - !!!!!! Warning!!!!!!select NAT instance and `enable stop` source/destination check
